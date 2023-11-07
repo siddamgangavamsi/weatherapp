@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+}
+.container{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 30px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px;
+}
+h1{
+    padding-bottom: 5px;
+    text-align: center;
+}
+#btn{
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    color: black;
+    border-radius: 5px;
+}
+#inputval{
+    height: 30px;
+    width: 200px;
+}
+.weatherInfo{
+    padding-left:30px;
+    color: white;
+}

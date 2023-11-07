@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- wheater app structure -->
+    <div class="container">
+        <h1>WEATHER INFO</h1>
+        <div class="input_box">
+            <input type="text" placeholder="enter the location" id="inputval">
+            <button type="submit" id="btn">Get</button>
+        </div>
+        <div class="weatherInfo">
+            <img src="" alt="" width="" height="" id="image">
+
+            <!-- to display the temp -->
+            <div class="temperature_info">
+                <span class="temp" id="temp">30</span>
+                <span class="temp">&deg;</span>
+                <span class="cel">c</span>
+            </div>
+            <!-- to display wheater description like sunny,cloud,rain etc.... -->
+            <div class="description" id="description">Cloudy</div>
+            <!-- to display the weather location -->
+            <div class="location" id="location">hyderabad</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
